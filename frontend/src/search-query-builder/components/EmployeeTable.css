@@ -1,0 +1,28 @@
+.table-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.table-row {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-row.header {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.table-cell {
+  flex: 1;
+  padding: 10px;
+  text-align: left;
+}
+
+.table-cell:not(:last-child) {
+  border-right: 1px solid #ddd;
+}

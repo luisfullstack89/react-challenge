@@ -1,0 +1,14 @@
+.build-button {
+  background-color: #800080; /* Use the same color as in the image */
+  color: white; /* Text color */
+  font-size: 16px; /* Adjust font size */
+  padding: 10px 30px; /* Adjust padding */
+  border-radius: 5px; /* Adjust border radius */
+  border: none; /* Remove border */
+  text-align: center; /* Center the text */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.build-button:hover {
+  background-color: #6a006a; /* Darker shade for hover state */
+}
